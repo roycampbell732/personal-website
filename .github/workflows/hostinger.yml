@@ -8,8 +8,7 @@ on:
   workflow_dispatch:
     
 jobs:
-  deploysource:
-    name: Setup Website
+  deploy_job:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -18,12 +17,14 @@ jobs:
     #  with:
     #    args: zip -qq -r bundle.zip ./
     - name: deploy to hostinger
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      uses: wlixcc/SFTP-Deploy-Action@v1.0
       with:
         server: ftp://156.67.72.169
         username: ${{ secrets.FTP_UN }}
-        password: ${{ secrets.FTP_PW }}
-        protocol: sftp
+        ssh_private_key: ${{ secrets.HOSTINGER_KEY }}
+        local_path: './'
+        remote_path: '/public_html'
+        args: '-o ConnectTimeout=5'
     #- name: Webhook
     #  uses: distributhor/workflow-webhook@v2
     #  with:
