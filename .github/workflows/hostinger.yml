@@ -20,7 +20,7 @@ jobs:
     - name: deploy to hostinger
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp://campbellis.me
+        server: ftp://156.67.72.169
         username: ${{ secrets.ftp_un }}
         password: ${{ secrets.ftp_pw }}
         protocol: ftps
