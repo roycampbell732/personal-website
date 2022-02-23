@@ -17,7 +17,7 @@ jobs:
     - name: deploy to hostinger
       uses: wlixcc/SFTP-Deploy-Action@v1.0
       with:
-        server: ftp://156.67.72.169
+        server: '156.67.72.169'
         username: ${{ secrets.FTP_UN }}
         ssh_private_key: ${{ secrets.HOSTINGER_KEY }}
         local_path: './'
