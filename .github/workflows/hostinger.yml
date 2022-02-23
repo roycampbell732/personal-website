@@ -22,7 +22,7 @@ jobs:
         ssh_private_key: ${{ secrets.HOSTINGER_KEY }}
         local_path: './'
         remote_path: '/public_html'
-        args: '-o ConnectTimeout=5'
+        args: '-o ConnectTimeout=5 -P 21'
     #- name: Webhook
     #  uses: distributhor/workflow-webhook@v2
     #  with:
