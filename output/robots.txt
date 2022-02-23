@@ -1,4 +1,0 @@
-Sitemap: https://campbellis.online/sitemapindex.xml
-
-User-Agent: *
-Host: campbellis.online
