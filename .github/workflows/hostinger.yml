@@ -32,7 +32,8 @@ jobs:
           -rltgoDzvO
           --exclude='.git'
         REMOTE_HOST: '156.67.72.169'
-        REMOTE_USER: ${{ secrets.FTP_UN }}
+        REMOTE_USER: ${{ secrets.SSH_UN }}
+        REMOTE_PORT: ${{ secrets.SSH_PORT }}
         TARGET: /public_html/
     #- name: Webhook
     #  uses: distributhor/workflow-webhook@v2
