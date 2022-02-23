@@ -1,0 +1,28 @@
+name: update to hostinger
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - output/*
+  workflow_dispatch:
+    
+jobs:
+  setConfiguration:
+    name: Setup Website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Webhook
+        uses: distributhor/workflow-webhook
+        with:
+        url: "https://webhooks.hostinger.com/deploy/0d915e74d5858d96523e47ea03f0e03c"
+        json: '{ "repository": "${{github.event.repository.full_name}}", "number": "${{github.event.number}}", "created_at": "${{github.event.pull_request.created_at}}", "updated_at": "${{github.event.pull_request.updated_at}}" }'
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Push site to Hostinger
+      run: |
+
+    - name: zipLambdaFunction
+      uses: montudor/action-zip@v0.1.0
+      with:
+        args: zip -qq -r bundle.zip ./ -x *.zip -x *.sh -x *.json -x *.env
