@@ -23,7 +23,7 @@ jobs:
         server: ftp://156.67.72.169
         username: ${{ secrets.FTP_UN }}
         password: ${{ secrets.FTP_PW }}
-        protocol: ftps
+        protocol: sftp
     #- name: Webhook
     #  uses: distributhor/workflow-webhook@v2
     #  with:
