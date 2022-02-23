@@ -17,13 +17,23 @@ jobs:
     - name: deploy to hostinger
       uses: wlixcc/SFTP-Deploy-Action@v1.0
       with:
-        server: '156.67.72.169'
-        username: ${{ secrets.FTP_UN }}
-        ssh_private_key: ${{ secrets.HOSTINGER_KEY }}
-        local_path: './'
-        remote_path: '/public_html'
-        args: '-o ConnectTimeout=5'
-        port: '21'
+#        server: ''
+#        username: ${{ secrets.FTP_UN }}
+#        ssh_private_key: ${{ secrets.HOSTINGER_KEY }}
+#        local_path: './'
+#        remote_path: '/public_html'
+#        args: '-o ConnectTimeout=5'
+#        port: '21'
+    - name: Deploy
+      uses: easingthemes/ssh-deploy@main
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_KEY }}
+        ARGS: >-  
+          -rltgoDzvO
+          --exclude='.git'
+        REMOTE_HOST: '156.67.72.169'
+        REMOTE_USER: ${{ secrets.FTP_UN }}
+        TARGET: /public_html/
     #- name: Webhook
     #  uses: distributhor/workflow-webhook@v2
     #  with:
