@@ -14,9 +14,9 @@ jobs:
     #  uses: montudor/action-zip@v0.1.0
     #  with:
     #    args: zip -qq -r bundle.zip ./
-    - name: deploy to hostinger
-      uses: wlixcc/SFTP-Deploy-Action@v1.0
-      with:
+#    - name: deploy to hostinger
+#      uses: wlixcc/SFTP-Deploy-Action@v1.0
+#      with:
 #        server: ''
 #        username: ${{ secrets.FTP_UN }}
 #        ssh_private_key: ${{ secrets.HOSTINGER_KEY }}
