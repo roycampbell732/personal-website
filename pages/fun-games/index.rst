@@ -11,15 +11,17 @@ As an avid gamer (both board and e-games) I enjoy a wide variety of styles and t
 Here you will find links to my favourite board games and e-games.
 There may even be some open-source web based games hosted/linked to here.
 
-Best board game ever:
+**Best board game ever:**
+
 Crokinole:
-* https://boardgamegeek.com/boardgame/521/crokinole
-* https://traceyboards.com
 
-Other great board games:
-Competitive:
+* `<https://boardgamegeek.com/boardgame/521/crokinole>`
+* `<https://traceyboards.com>`
 
-* Carcassonne
+**Other great board games:**
+*Competitive:*
+
+* `Carcassonne <https://boardgamegeek.com/boardgame/822/carcassonne>`
 * Condotierre
 * Colossal Arena
 * Sun Tzu
@@ -33,7 +35,7 @@ Competitive:
 * Feudal
 * Isle of Skye
 
-Collaborative:
+*Collaborative:*
 
 * Magic Maze
 * The Unlock series of puzzle games
@@ -41,7 +43,7 @@ Collaborative:
 * Star Trek 5 year mission
 * Atlantis Rising
 
-Card games:
+*Card games:*
 
 * Euchre
 * Poker
@@ -51,14 +53,15 @@ Card games:
 * Fluxx (the original)
 * Xactica
 
-Party Games
+*Party Games:*
 
 * The Resistance
 * The Resistance: Avalon
 * Unlimited Werewolf
 * Funglish
 
-E Games
+*E-Games:*
+
 * Factorio
 * Warcraft 2 (dos or windows - battle.net edition)
 * Command & Conquer Generals: Zero Hour
@@ -69,4 +72,4 @@ E Games
 * Anything with Tux the Linux Penguin (SuperTux Cart, Extreme Tux Racer, SuperTux, etc...)
 
 
-There are more - many, many, more....
+**There are more - many, many, more....**
