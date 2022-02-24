@@ -11,14 +11,15 @@ I am a Husband, Father, Grandfather who has an incredibly rich life with his fam
 
 I am also:
 
-* a follower of Jesus Christ,
-* a hockey fan (my favourite teams are the Ottawa Senators and Edmonton Oilers) and beer league player, a crokinole player, a computer consultant / developer and occasional speaker.
+* a follower of Jesus Christ
+* a hockey fan (my favourite teams are the Ottawa Senators and Edmonton Oilers) and beer league player
 * a competitive crokinole player - I use Tracey Boards (https://traceyboards.com), the official boards of the World Crokinole Championships.  The WCC is held the first Saturday of June, each year, in Tavistock, ON Canada
-* a Coffee enjoyer - I prefer a good medium-dark roast.  I use both the Aero-Press Coffee press as well as a Breville espresso machine.
+* a Coffee enjoyer - I prefer a good medium-dark roast.  I use both the Aero-Press Coffee press as well as a Breville espresso machine
 * a supporter of local micro breweries - Rural Roots in Elmira
 * a gamer (both board games - mostly euro style - and computer games - sports preferred)
-* a traveller, favourite destination so far, Kenya.
+* a traveller, favourite destination so far, Kenya
 * a computer consultant / programmer - I mostly use Python to solve automation and data science problems with occasional web development thrown in
+* and occasionally a speaker
 
 Philosophy of life:
 
