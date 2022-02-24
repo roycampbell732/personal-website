@@ -10,20 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    #- name: zip
-    #  uses: montudor/action-zip@v0.1.0
-    #  with:
-    #    args: zip -qq -r bundle.zip ./
-#    - name: deploy to hostinger
-#      uses: wlixcc/SFTP-Deploy-Action@v1.0
-#      with:
-#        server: ''
-#        username: ${{ secrets.FTP_UN }}
-#        ssh_private_key: ${{ secrets.HOSTINGER_KEY }}
-#        local_path: './'
-#        remote_path: '/public_html'
-#        args: '-o ConnectTimeout=5'
-#        port: '21'
     - name: deploy
       env:
         SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_PRIV }}
