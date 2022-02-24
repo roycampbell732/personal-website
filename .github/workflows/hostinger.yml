@@ -24,7 +24,7 @@ jobs:
 #        remote_path: '/public_html'
 #        args: '-o ConnectTimeout=5'
 #        port: '21'
-    -name: debug
+    - name: debug
       env:
         SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_PRIV }}
       run: echo $SSH_PRIVATE_KEY
