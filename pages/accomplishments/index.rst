@@ -29,8 +29,10 @@ In 2013, I was the keynote speaker at ICCM-Australia talking about the intersect
 
 From 2016 to 2020 I worked at Learning for Humanity (Incorporated and Alliance) which I co-founded.  There I was responsible for all things technical from Hardware to Software to data storage to school and classroom infrastructure.
 
-Statements that guide my work decisions:
-* "Can it be done" is usually the wrong question - the right question is a combination of "how would we do it?" and "is it feasible in our circumstances with our resources?"
-* Who are we helping and who is potentially being hurt and how do we mitigate that?
-* Cadillac solutions for the bicycle budget
-* What's the best practice and does it dictate a commercial solution or will open-source do as good or better job
+Philosophy of life:
+
+* do no harm (easier said than done)
+* when designing a solution, ask questions like who's benefitting and who's being hurt (even inadvertently)
+* help the widow, orphan, refugee, and otherwise marginalized ahead of the wealthy (the wealthy can usually help themselves)
+* I've been told I have a "can do" attitude: "Can it be done" is usually the wrong question - the right question is a combination of "how can it be done?", "should we do it?" and "is it feasible?"
+* what's the best practice and does it dictate a commercial solution or will open-source do as good or better job?
