@@ -36,3 +36,29 @@ Philosophy of life:
 * help the widow, orphan, refugee, and otherwise marginalized ahead of the wealthy (the wealthy can usually help themselves)
 * I've been told I have a "can do" attitude: "Can it be done" is usually the wrong question - the right question is a combination of "how can it be done?", "should we do it?" and "is it feasible?"
 * what's the best practice and does it dictate a commercial solution or will open-source do as good or better job?
+
+Technology I currently use:
+
+Hardware...
+
+* Macbook Pro (primary machine)
+* Win 10 Laptop
+* Linux Laptop
+* Raspberry Pi 4 (for server and workstation)
+
+Software & Services...
+
+* Python
+* Git in several flavours
+* Github Actions
+* Docker
+* AWS Lambdas (Other AWS Services to support the Lambdas)
+* Other languages and services as necessary
+
+IDEs...
+
+* VS Code
+* VS Codium
+* Atom
+* PyCharm
+* Jupiter Notebooks
