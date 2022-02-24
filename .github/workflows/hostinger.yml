@@ -35,6 +35,7 @@ jobs:
         REMOTE_USER: ${{ secrets.SSH_UN }}
         REMOTE_PORT: ${{ secrets.SSH_PORT }}
         TARGET: /public_html/
+      run: cat ~/.ssh/deploy_key
 #      build:
 #    runs-on: ubuntu-latest
 #    steps:
