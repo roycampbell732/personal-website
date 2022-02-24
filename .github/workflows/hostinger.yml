@@ -24,6 +24,11 @@ jobs:
 #        remote_path: '/public_html'
 #        args: '-o ConnectTimeout=5'
 #        port: '21'
+    -name: debug
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_PRIV }}
+      run: echo $SSH_PRIVATE_KEY
+
     - name: Deploy
       uses: easingthemes/ssh-deploy@main
       env:
@@ -35,7 +40,7 @@ jobs:
         REMOTE_USER: ${{ secrets.SSH_UN }}
         REMOTE_PORT: ${{ secrets.SSH_PORT }}
         TARGET: /public_html/
-      run: cat ~/.ssh/deploy_key
+    
 #      build:
 #    runs-on: ubuntu-latest
 #    steps:
