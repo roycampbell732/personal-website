@@ -30,4 +30,4 @@ jobs:
       run: |
         mkdir ~/.ssh
         echo $SSH_PRIVATE_KEY > ~/.ssh/private_key
-        scp -P 65002 -C -r -i ~/.ssh/private_key ./* u956362618@156.67.72.151:~/co_public/
+        scp -P 65002 -C -r -i $SSH_PRIVATE_KEY ./* u956362618@156.67.72.151:~/co_public/
