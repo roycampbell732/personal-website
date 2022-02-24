@@ -26,4 +26,4 @@ Philosophy of life:
 * do no harm (easier said than done)
 * when designing a solution, ask questions like who's benefitting and who's being hurt (even inadvertently)
 * help the widow, orphan, refugee, and otherwise marginalized ahead of the wealthy (the wealthy can usually help themselves)
-* I've been told I have a "can do" attitude: "Can it be done" is usually the wrong question - the right question is a combination of "should we do it", "how would we do it?" and "is it feasible in our circumstances with our resources?"
+* I've been told I have a "can do" attitude: "Can it be done" is usually the wrong question - the right question is a combination of "how can it be done?", "should we do it?" and "is it feasible?"
