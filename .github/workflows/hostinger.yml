@@ -28,6 +28,6 @@ jobs:
       env:
         SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_PRIV }}
       run: |
-        mkdir ~/.ssh
-        echo "$SSH_PRIVATE_KEY" > ~/.ssh/private_key
-        scp -P 65002 -C -r -i ~/.ssh/private_key ./* u956362618@156.67.72.151:~/co_public/
+        mkdir $HOME/.ssh
+        echo "$SSH_PRIVATE_KEY" > $HOME/.ssh/private_key
+        scp -P 65002 -C -r -i $HOME/.ssh/private_key ./* u956362618@156.67.72.151:~/co_public/
