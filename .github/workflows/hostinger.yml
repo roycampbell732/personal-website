@@ -34,4 +34,3 @@ jobs:
         port: ${{ secrets.SSH_PORT }}
         source: "deploy.tar"
         target: "~/co_public"
-    - name: 
