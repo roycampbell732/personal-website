@@ -15,13 +15,14 @@ There may even be some open-source web based games hosted/linked to here.
 
 Crokinole:
 
-* `<https://boardgamegeek.com/boardgame/521/crokinole>`
-* `<https://traceyboards.com>`
+* `BoardGameGeek <https://boardgamegeek.com/boardgame/521/crokinole>`_
+* `TraceyBoards <https://traceyboards.com>`_
 
 **Other great board games:**
+
 *Competitive:*
 
-* `Carcassonne <https://boardgamegeek.com/boardgame/822/carcassonne>`
+* `Carcassonne <https://boardgamegeek.com/boardgame/822/carcassonne>`_
 * Condotierre
 * Colossal Arena
 * Sun Tzu
