@@ -27,14 +27,31 @@ jobs:
     - name: Deploy
       uses: easingthemes/ssh-deploy@main
       env:
-        SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_KEY }}
+        SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_PRIV }}
         ARGS: >-  
           -rltgoDzvO
           --exclude='.git'
-        REMOTE_HOST: '156.67.72.169'
+        REMOTE_HOST: '156.67.72.151'
         REMOTE_USER: ${{ secrets.SSH_UN }}
         REMOTE_PORT: ${{ secrets.SSH_PORT }}
         TARGET: /public_html/
+#      build:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Create SSH key
+#        run: |
+#          mkdir -p ~/.ssh/
+#          echo "$SSH_PRIVATE_KEY" > ../private.key
+#          sudo chmod 600 ../private.key
+#          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+        shell: bash
+        env:
+          SSH_PRIVATE_KEY: ${{secrets.HOSTINGER_PRIV}}
+#          SSH_KNOWN_HOSTS: ${{secrets.SSH_KNOWN_HOSTS}}
+          SSH_KEY_PATH: ${{ github.workspace }}/../private.key
+          TARGET: /public_html/
+        run: |
+          rsync -azr 
     #- name: Webhook
     #  uses: distributhor/workflow-webhook@v2
     #  with:
